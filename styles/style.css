@@ -18,6 +18,22 @@ body {
   font-size: 1rem;
   background-color: var(--col-yellow);
 }
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  padding: 1.5rem;
+  max-width: 320px;
+  margin-inline: auto;
+  background-color: var(--col-white);
+  border-radius: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--col-gray-950);
+}
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
