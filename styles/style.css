@@ -5,6 +5,11 @@
   --col-gray-500: hsl(0, 0%, 42%);
   --col-gray-950: hsl(0, 0%, 7%);
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
