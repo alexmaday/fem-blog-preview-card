@@ -1,4 +1,9 @@
 body {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
 }
 .attribution {
   font-size: 0.6875rem;
