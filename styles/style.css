@@ -1,3 +1,10 @@
+:root {
+  /* COLORS */
+  --col-yellow: hsl(47, 88%, 63%);
+  --col-white: hsl(0, 0%, 100%);
+  --col-gray-500: hsl(0, 0%, 42%);
+  --col-gray-950: hsl(0, 0%, 7%);
+}
 body {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
