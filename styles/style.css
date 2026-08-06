@@ -54,7 +54,7 @@ h1 {
   font-weight: 900;
   font-size: 1.4rem;
 }
-.tags {
+.categories {
   background-color: var(--col-yellow);
   display: inline-block;
   width: max-content;
@@ -62,7 +62,7 @@ h1 {
   padding-block: var(--space-50);
   border-radius: var(--space-50);
 }
-.tag,
+.category,
 .author-meta {
   font-size: var(--text3-size);
   font-weight: 800;
@@ -73,7 +73,7 @@ h1 {
 .excerpt {
   font-size: var(--text2-size);
 }
-.tag,
+.category,
 h1,
 .meta,
 .author-name {
