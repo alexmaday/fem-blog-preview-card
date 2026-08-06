@@ -6,7 +6,17 @@
   --col-gray-950: hsl(0, 0%, 7%);
 
   /* TYPOGRAPHY */
-  --spacing-md: 1.5rem;
+  --text1-size: 1.5rem;
+  --text1-weight: 950;
+  --text2-size: 1rem;
+  --text3-size: 0.857rem;
+  --text3-weight: 950;
+
+  /* SPACING */
+  --space-300: 1.5rem;
+  --space-150: 0.75rem;
+  --space-100: 0.5rem;
+  --space-150: 0.25rem;
   --spacing-sm: 1.2rem;
 }
 * {
@@ -30,7 +40,7 @@ body {
   align-items: center;
 }
 .card {
-  padding: var(--spacing-md);
+  padding: var(--space-300);
   max-width: 384px;
   margin-inline: auto;
   background-color: var(--col-white);
@@ -44,6 +54,16 @@ h1 {
   font-weight: 900;
   font-size: 1.4rem;
 }
+.tag, .author-meta {
+  font-size: var(--text3-size);
+  font-weight: 800;
+}
+.meta {
+  font-size: var(--text3-size);
+}
+.excerpt {
+  font-size: var(--text2-size);
+}
 .tag,
 h1,
 .meta,
@@ -52,6 +72,9 @@ h1,
 }
 .excerpt {
   color: var(--col-gray-500);
+}
+img.author-avatar {
+  width: 2rem;
 }
 .attribution {
   font-size: 0.6875rem;
