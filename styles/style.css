@@ -7,10 +7,12 @@
 
   /* TYPOGRAPHY */
   --text1-size: 1.5rem;
+  --text-h1-smaller: 1.25rem;
   --text1-weight: 950;
   --text2-size: 1rem;
   --text3-size: 0.857rem;
   --text3-weight: 950;
+  --text4-size: 0.75rem;
 
   /* SPACING */
   --space-300: 1.5rem;
@@ -42,6 +44,7 @@ body {
 .card {
   padding: var(--space-300);
   max-width: 384px;
+  min-width: 320px;
   margin-inline: auto;
   background-color: var(--col-white);
   border-radius: 0.85rem;
@@ -80,6 +83,19 @@ h1 {
 }
 .excerpt {
   font-size: var(--text2-size);
+}
+
+@media (width < 328px) {
+  h1 {
+    font-size: var(--text-h1-smaller);
+  }
+  .category,
+  .meta {
+    font-size: var(--text4-size);
+  }
+  .excerpt {
+    font-size: var(--text3-size);
+  }
 }
 .category,
 h1,
