@@ -21,6 +21,7 @@ body {
   font-style: normal;
   font-size: 1rem;
   background-color: var(--col-yellow);
+  line-height: 150%;
 }
 .container {
   height: 100vh;
@@ -30,7 +31,7 @@ body {
 }
 .card {
   padding: var(--spacing-md);
-  max-width: 320px;
+  max-width: 384px;
   margin-inline: auto;
   background-color: var(--col-white);
   border-radius: 0.85rem;
