@@ -16,7 +16,7 @@
   --space-300: 1.5rem;
   --space-150: 0.75rem;
   --space-100: 0.5rem;
-  --space-150: 0.25rem;
+  --space-50: 0.25rem;
   --spacing-sm: 1.2rem;
 }
 * {
@@ -54,7 +54,16 @@ h1 {
   font-weight: 900;
   font-size: 1.4rem;
 }
-.tag, .author-meta {
+.tags {
+  background-color: var(--col-yellow);
+  display: inline-block;
+  width: max-content;
+  padding-inline: var(--space-150);
+  padding-block: var(--space-50);
+  border-radius: var(--space-50);
+}
+.tag,
+.author-meta {
   font-size: var(--text3-size);
   font-weight: 800;
 }
