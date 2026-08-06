@@ -47,8 +47,11 @@ body {
   border-radius: 0.85rem;
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-sm);
+  gap: var(--space-300);
   border: 1px solid var(--col-gray-950);
+}
+.content > * {
+  margin-block-end: var(--space-150);
 }
 h1 {
   font-weight: 900;
@@ -61,6 +64,11 @@ h1 {
   padding-inline: var(--space-150);
   padding-block: var(--space-50);
   border-radius: var(--space-50);
+}
+.author-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-150);
 }
 .category,
 .author-meta {
